@@ -1,7 +1,7 @@
 class FactorialCalculator:
     def __init__(self, number):
         self.number = number
-
+        
     def calculate(self):
         if self.number == 0 or self.number == 1:
             return 1
