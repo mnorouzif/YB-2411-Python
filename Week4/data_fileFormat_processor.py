@@ -25,12 +25,14 @@ class DataFileFormat_Processor:
         print("\nDescriptive Statistics:")
         print(self.data.describe())
 
+
 def main():
     
-    file_path = 'Week4/sample_junk_mail.csv' 
+    file_path = 'Week4/sample_junk_mail_updated.csv' 
     processor = DataFileFormat_Processor(file_path)
     processor.load_data()
     processor.initial_processing()
+
 
 if __name__ == "__main__":
     main()
