@@ -11,5 +11,4 @@ def Sum_even_No(n):
 if __name__ == "__main__":
     
     n = int(input("Enter a positive number: "))
-    
     Sum_even_No(n)
