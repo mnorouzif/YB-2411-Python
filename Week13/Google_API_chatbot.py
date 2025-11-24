@@ -4,7 +4,7 @@ from google import genai
 from google.genai import types
 import os
 
-API_KEY = "AIzaSyBWoVIEjGfX0WDbupYCfvGauveJmgQ_xCI"
+API_KEY = "..."
 
 
 
