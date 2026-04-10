@@ -51,6 +51,7 @@ def main():
 
     print("=== Gross Pay & Tax Calculator ===")
 
+
     # ---- Part 1 Inputs ----
     # Ask user for hourly pay rate
     hourly_rate = float(input("Enter your hourly rate ($): "))
