@@ -12,7 +12,7 @@ class MathSeries:
         if n < 0:
             raise ValueError("Fibonacci is not defined for negative numbers.")
         if n == 0:
-            return 0
+            return 1
         if n == 1:
             return 1
         return (MathSeries.fibonacci_recursive(n - 1) +
