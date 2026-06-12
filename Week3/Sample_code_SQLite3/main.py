@@ -27,7 +27,7 @@ def main():
             users = view_users()
             for user in users:
                 print(user)
-        elif choice == '3':
+        elif choice == '3':0
             name = input("Enter name to search: ")
             users = search_user(name)
             for user in users:
